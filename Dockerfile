@@ -1,6 +1,6 @@
 ARG DEALII_IMAGE_VERSION="master"
 
-FROM dealii/dealii:${DEALII_IMAGE_VERSION}-noble as builder
+FROM dealii/dealii:${DEALII_IMAGE_VERSION}-resolute as builder
 USER root
 
 WORKDIR /app
